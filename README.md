@@ -1,5 +1,3 @@
-![learnyouhtml](./preview.png)
-
 # learnyouhtml
 
 [![NPM version][npm-image]][npm-url]
@@ -7,11 +5,15 @@
 [![Build Status][buildstat-image]][buildstat-url]
 [![Dependency Status][depstat-image]][depstat-url]
 
+> Ejercicio Terminado (LilliamHaro - 8BM)
+
+![learnyouhtml](./learnyouhtml-completed.png)
+
+## Exercises
+
 > Learn you how to create your first web-page.
 
 **Hypertext Markup Language (HTML)** is the standard markup language for creating web pages and web applications. This workshopper will guide you through the simple exercises which explain the core principles of HTML.
-
-## Exercises
 
 This workshopper has 11 exercises that cover the most important aspects of HTML.
 
@@ -26,6 +28,8 @@ This workshopper has 11 exercises that cover the most important aspects of HTML.
 * **LINKS AND REFERENCES** — how to leave a references to another page.
 * **FORMS** — creating of forms with control elements.
 * **STYLES AND SCRIPTS** — injecting styles and scripts on a page.
+
+![learnyouhtml](./preview.png)
 
 ## Requirements
 
