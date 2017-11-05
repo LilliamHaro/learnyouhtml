@@ -1,3 +1,78 @@
-body {
-  background-color:salmon;
+* {
+  color: white;
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: monospace;
+  font-size:18px;
 }
+ main {
+   background-color: #282c34;
+   width: 730px;
+   margin: auto;
+   padding: 5px 15px 70px;
+   border-radius: 6px;
+ }
+ div {
+   margin-bottom: 50px;
+   margin-top: 10px;
+ }
+ .circle {
+   display: inline-block;
+ }
+ .circle li {
+   list-style: none;
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   float: left;
+   margin-right: 8px;
+   background-color: #ff6259;
+ }
+ .circle li:nth-child(2){
+   background-color: #ffbd2e;
+ }
+ .circle li:nth-child(3){
+   background-color: #28ca42;
+ }
+ .title {
+   display: inline-block;
+   font-size: 14px;
+   margin-left: 170px;
+ }
+ section {
+   background-color: #56b6c2;
+   width: 97%;
+   margin: auto;
+   padding: 15px;
+ }
+ section em {
+   border-bottom: 1px solid black;
+   display: block;
+   color: #d0d0d0;
+   margin-bottom: 8px;
+ }
+ .exercises {
+   list-style: none;
+   padding-left: 0;
+   border-bottom: 1px solid black;
+   margin: 8px 0;
+   font-weight: bold;
+ }
+ .exercises li::after {
+   content: "[Completed]";
+   font-weight: 400;
+   float: right;
+ }
+ a {
+   text-decoration:none;
+   color: white;
+ }
+ a:hover, .exercises li:hover {
+   background-color: #d0d0d0;
+   color: #56b6c2;
+   border-radius: 5px;
+ }
+ hr {
+   border: 1px solid #d0d0d0;
+ }
